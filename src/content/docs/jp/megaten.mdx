@@ -1,0 +1,16 @@
+---
+title: 女神転生
+description: 女神転生に関するRTA情報
+---
+
+import { LinkCard,Card, CardGrid, Steps, Tabs, TabItem } from '@astrojs/starlight/components';
+import  LinkCardWithBackground  from '/src/components/LinkCardWithBackground.astro';
+import mt1 from '/src/assets/covers/others/mt1.png'
+import mt2 from '/src/assets/covers/others/mt2.png'
+import kmt from '/src/assets/covers/others/kmt.png'
+
+<CardGrid>
+    <LinkCardWithBackground title="デジタル・デビル物語 女神転生" href="/jp/megaten/mt1" imagePath={mt1} alt="Click here for MT1" />
+    <LinkCardWithBackground title="デジタル・デビル物語 女神転生II" href="/jp/megaten/mt2" imagePath={mt2} alt="Click here for MT2" />
+    <LinkCardWithBackground title="旧約・女神転生" href="/jp/megaten/kmt" imagePath={kmt} alt="Click here for KMT" />
+</CardGrid>
