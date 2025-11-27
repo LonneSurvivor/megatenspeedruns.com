@@ -21,6 +21,7 @@ import smt3 from "/src/assets/logos/nocturne.png";
 import smt1 from '/src/assets/logos/smt1.png';
 import smt2 from "/src/assets/logos/smt2.png";
 import smtsjr from "/src/assets/logos/smtsjr.png";
+import smtsj from "/src/assets/logos/smtsj.png";
 import tms from "/src/assets/logos/tms.png";
 import demikidsdark from "/src/assets/logos/demikidsdark.png";
 import dds2 from "/src/assets/logos/dds2.png";
@@ -40,13 +41,20 @@ import p3r from "/src/assets/logos/p3r.png";
 import p5r from "/src/assets/logos/p5r.png";
 import p2is from "/src/assets/logos/p2is.png";
 import p2ep from "/src/assets/logos/p2ep.png";
-
+import p4au from "/src/assets/logos/p4au.png";
+import p4racing from "/src/assets/logos/p4racing.png";
+import kmt from "/src/assets/logos/kmt.png";
+import messia from "/src/assets/logos/messia.avif";
+import raidour from "/src/assets/logos/raidour.png";
+import smt20xx from "/src/assets/logos/20xx.png";
+import aegis from "/src/assets/logos/aegis.png";
 
 import marathon1 from "/src/assets/events/marathon1.png";
 import marathon2 from "/src/assets/events/marathon2.png";
 import marathon3 from "/src/assets/events/marathon3.png";
 import marathon4 from "/src/assets/events/marathon4.png";
 import marathon5 from "/src/assets/events/marathon5.png";
+import marathon6 from "/src/assets/events/marathon6.png";
 
 <div class="not-content">
     <div class="parallax-section">
@@ -261,7 +269,7 @@ import marathon5 from "/src/assets/events/marathon5.png";
         <Image src={marathon5} alt={"aa"} class="marathon-image"/>
         <div class="text-container text-container-content">
             <EventsTitle title="Persona Relay 2025" year="2025" />
-            <EventsGameGrid mobilePlaylistUrl=""  
+            <EventsGameGrid mobilePlaylistUrl="https://youtube.com/playlist?list=PLeFz_bRsyduBSw0IThS02ktVh_T4xRirh&si=s_0ESY--jyPqrbHC"  
                 gameList={
                     [
                         {url: "https://youtu.be/3MFF0fL-9IU?si=0J2p3r4vLfsq9tGS",
@@ -282,6 +290,60 @@ import marathon5 from "/src/assets/events/marathon5.png";
                         {url: "https://youtu.be/Lhgv3O9-08Q?si=AiwQU1NXjT4hHOw0",
                         altText:"P3 FES by Flutter",
                         imagePath: fes},
+                    ]
+                }
+            />
+        </div>
+    </div>
+    <div class="parallax-section">
+        <Image src={marathon6} alt={"background"} class="marathon-image"/>
+        <div class="text-container text-container-content">
+            <EventsTitle title="SMT/Persona Marathon 2025" year="2025" />
+            <EventsGameGrid mobilePlaylistUrl="https://youtube.com/playlist?list=PL8PZB25uZuZ7J8IkS42R7KfuhJtN74eiY&si=gWGlHWM8azxApm7F"  
+                gameList={
+                    [
+                        {url: "https://youtu.be/Q8S0WiIPjFE?si=2rgdC4Iy2NJCBWWe",
+                        altText: "SMT4A by shaggy",
+                        imagePath: smt4a},
+                        {url: "https://youtu.be/i085v3JXkWc?si=1XxBlvVYXXl4l5Zo",
+                        altText: "P1 by Lonne",
+                        imagePath: persona1},
+                        {url: "https://youtu.be/FAT6XeeEUlQ?si=G0lOnH8jyjSRpLtN",
+                        altText: "Aegis by mulsqi",
+                        imagePath: aegis},
+                        {url: "https://youtu.be/TgcEemj2iCs?si=o3TVvOp-ghMv4MZV",
+                        altText: "20XX by sion",
+                        imagePath: smt20xx},
+                        {url: "https://youtu.be/ffA_v7sRbow?si=UXykfvoEuqyy88pi",
+                        altText: "Raidou Remaster by Toxic",
+                        imagePath: raidour},
+                        {url: "https://youtu.be/pUNHmNJ4Vko?si=ZMNOR_eYPMYNegkc",
+                        altText: "Persona 4 Racing All Afternoon by MyKey",
+                        imagePath: p4racing},
+                        {url: "https://youtu.be/sjMVuU1EMc4?si=BgxRq_P7Um0C0d7M",
+                        altText: "Persona 4 Arena Ultimax by enemy431",
+                        imagePath: p4au},
+                        {url: "https://youtu.be/Z4N8SAGb0Rg?si=abF_8QPIigrqVPyw",
+                        altText: "SMTVV by shaggy",
+                        imagePath: smt5v},
+                        {url: "https://youtu.be/ce5Wt41DulU?si=oTz2X8JZcbGZBc-y",
+                        altText: "SMT3HD by shiner",
+                        imagePath: smt3hd},
+                        {url: "https://youtu.be/0d4Sn-R4Ctg?si=AeyOmt8UIDkgxFtk",
+                        altText: "Shin Megami Tensei If... by Xano",
+                        imagePath: smtif},
+                        {url: "https://youtu.be/ZLbutcC8j1I?si=a5tH2KFvbYizvI0F",
+                        altText: "SMTSJ by Jon",
+                        imagePath: smtsj},
+                        {url: "https://youtu.be/5Vk_CHXLKi0?si=9IUh2yevPotCr68Z",
+                        altText: "Devil Children Messia Riser by sion",
+                        imagePath: messia},
+                        {url: "https://youtu.be/xDIo4EuM7ak?si=WTbOQUModUAqWbGE",
+                        altText: "KMT race by Jon and mulsqi",
+                        imagePath: kmt},
+                        {url: "https://youtu.be/y7pJqmRNJzo?si=qMyWMpG_L-kHO6PX",
+                        altText: "SMT:DDS2 by Freedom",
+                        imagePath: dds2}
                     ]
                 }
             />
