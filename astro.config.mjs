@@ -168,6 +168,14 @@ export default defineConfig({
                   'ja-JP': '魔神転生',
                 },
             },
+            {
+                label: "Megami Tensei",
+                autogenerate: {directory: "megaten"},
+                collapsed: true,
+                translations: {
+                  'ja-JP': '女神転生',
+                },
+            },
               {
                   label: "Others",
                   autogenerate: {directory: "others"},
